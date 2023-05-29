@@ -1,0 +1,43 @@
+body {
+    background-color: #EBECF5;
+}
+
+.box {
+    border-radius: 3%;
+    width: 375px;
+    height: 410px;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-top: 25px;
+    background-color: #FFFFFF;
+    transform: translate(120%, 0%);
+    position: absolute;
+}
+
+.btn {
+    background-color: #F8656E;
+    color: #FFFFFF;
+    width: 350px;
+    height: 45px;
+}
+
+.box2 {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background-color: #F865B3;
+    position: absolute;
+    top: 10px;
+    left: 295px;
+
+}
+
+.box3 {
+    border-radius: 50%;
+    width: 420px;
+    height: 420px;
+    background-color: #F87E65;
+    position: absolute;
+    right: 300px;
+    top: 225px;
+}
