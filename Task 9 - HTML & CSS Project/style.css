@@ -300,7 +300,7 @@ a {
     margin-top: 90px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     cursor: pointer;
 }
 
@@ -335,12 +335,11 @@ a {
 .owl_icons {
     display: flex;
     justify-content: space-between;
-    position: relative
+
 }
 
 .owl_icon {
     display: flex;
-    position: absolute;
     font-size: 25px;
     border-radius: 50%;
     background-color: #6168FF;
@@ -348,32 +347,76 @@ a {
     width: 50px;
     height: 50px;
     padding: 14px;
-    top: 30%;
+    top: 80px;
 }
+
+.left_owl_icon {
+    position: absolute;
+    left: 25px;
+    margin-top: 100px;
+}
+
+.right_owl_icon {
+    position: absolute;
+    margin-top: 100px;
+}
+
 
 .section_Text_center {
     position: relative;
     margin-top: 90px;
+}
+
+.center_textss {
     text-align: center;
 }
 
 .service_Text {
-    padding-top: 150px;
-    margin-left: 120px;
+    padding-top: 50px;
+    margin-left: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.service_text_left {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.service_Texts {
+    background-color: #F4F9FF;
+    margin: 15px;
+    padding: 20px;
 }
 
 .delux_room {
-    font-size: 55px;
-    padding: 13px;
+    font-size: 40px;
     color: #6168FF;
-    margin-top: 23px;
+}
+
+.service_text {
+    color: #666666;
+    margin-top: 20px;
+}
+
+.section_padding {
+    position: relative;
+    margin-top: 90px;
+}
+
+.section_title {
+    text-align: center;
+}
+
+.section_padding_imgs {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+}
+
+.section_card_img {
+    width: 500px;
+    height: 400px;
+}
+
+.card_img {
+    width: 70%;
 }
 
 @media screen and (max-width: 768px) {
@@ -383,6 +426,10 @@ a {
 
     .settings {
         display: none;
+    }
+
+    .main_image {
+        max-width: 100%;
     }
 
     .main_image img {
