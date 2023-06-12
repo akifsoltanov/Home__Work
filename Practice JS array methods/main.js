@@ -60,13 +60,13 @@ const persons = [{
 
 
 // 4. Get the array of all first names
-// const maps = persons.map(person => {
-//     return {
-//         namesHeights: `${person.name} ${person.height}`
-//     }
-// })
-// console.log(maps)
+// const maps = persons.map((person) => person.name)
+// const splitArr = maps.map((item) => item.split(' '))
+// const lastMap = splitArr.map((item) => item[0])
 
+// console.log(maps);
+// console.log(splitArr);
+// console.log(lastMap);
 
 
 // ***FILTER***
@@ -121,12 +121,10 @@ const persons = [{
 // 4. Sort by gender
 // persons.sort(function (a, b) {
 //     if (a.gender < b.gender) {
-//         return -1;
+//         return -1
+//     } else if (a.gender > b.gender) {
+//         return 1
 //     }
-//     if (a.gender > b.gender) {
-//         return 1;
-//     }
-//     return 0;
 // });
 
 // console.log(persons);
