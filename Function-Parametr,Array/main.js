@@ -32,9 +32,7 @@ let employees = [{
 function getEmployeeInfo(arr) {
 
     for (let i = 0; i < arr.length; i++) {
-        // console.log(i)
-        console.log(arr[i])
-        // console.log(`${arr[i]}`)
+        console.log(`${arr[i].name} ${arr[i].surname} yash ${arr[i].age}`)
     }
 }
 
