@@ -38,9 +38,9 @@
 
 // Task 3:
 
-// let btn = document.querySelector('.btn')
-// let img = document.querySelector('.img')
+let btn = document.querySelector('.btn')
+let img = document.querySelector('.img')
 
-// btn.addEventListener('click', () => {
-//     img.setAttribute('src', 'imagess')
-// })
+btn.addEventListener('click', () => {
+    img.setAttribute('src', './image/bmw2.jpeg')
+})
