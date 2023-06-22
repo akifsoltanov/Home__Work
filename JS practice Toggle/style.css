@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #FFFFFF;
+    transition: 0.5s;
+}
+
+.toggle {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 90px;
+    border-radius: 50px;
+    background: #D3D3D3;
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 90px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    transform: scale(0.9);
+}
+
+.active .btn {
+    left: 90px;
+    background: #000;
+}
+
+body.active {
+    background: #000;
+}

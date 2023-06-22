@@ -42,5 +42,5 @@ let btn = document.querySelector('.btn')
 let img = document.querySelector('.img')
 
 btn.addEventListener('click', () => {
-    img.setAttribute('src', './image/bmw2.jpeg')
+    img.setAttribute('src', './image/bmw2.jpg')
 })
