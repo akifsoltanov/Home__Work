@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E4DEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    height: 700px;
+    border: 3px solid #EEEAFE;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 70px;
+}
+
+p {
+    color: #666666;
+    margin: 5px;
+}
+
+.text_input {
+    width: 350px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
+.chec_kbox .drop {
+    color: #666666;
+    margin: 5px;
+}
+
+.drop {
+    color: #666666;
+}
+
+button {
+    margin-top: 70px;
+    width: 150px;
+    border: 1px solid #7A5CFA;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.button1 {
+    color: #7A5CFA;
+    background: white;
+    cursor: pointer;
+}
+
+.button2 {
+    color: white;
+    background: #7A5CFA;
+    margin-left: 46px;
+    cursor: pointer;
+}
