@@ -1,7 +1,7 @@
 const images = document.querySelectorAll('.img')
 
 images.forEach((img) => {
-    img.addEventListener("click", () => {
+    img.addEventListener("mouseover", () => {
         removeActiveClasses()
         img.classList.add("active");
     })
