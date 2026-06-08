@@ -10,11 +10,11 @@ function getTime(millisecond) {
 
     day = parseInt(hours / 24);
 
-    Week = parseInt(day / 7);
+    week = parseInt(day / 7);
 
     month = parseInt(day / 30);
 
-    years = parseInt(month / 12);
+    year = parseInt(month / 12);
 
     time = `${year} year ${month} month ${week} week ${day} day ${hours} hours ${min} minute ${sec} second`
 

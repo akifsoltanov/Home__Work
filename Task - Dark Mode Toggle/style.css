@@ -32,10 +32,11 @@ body {
     border-radius: 50px;
     background: #FFFFFF;
     transform: scale(0.9);
+    transition: 0.5s;
 }
 
 .active .btn {
-    left: 90px;
+    left: 100px;
     background: #000;
 }
 
